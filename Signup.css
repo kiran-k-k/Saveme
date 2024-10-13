@@ -173,6 +173,7 @@ input[type="password"]:focus {
     border-radius: 10px;
     color: #ffffff;
     font-size: 16px;
+    margin-top: 10px;    
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease;
