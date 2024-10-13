@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="About_us.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Aboutus_Saveme.com</title>
+    <link rel="icon" type="image/x-icon" href="stock-vector-one-health-infographic-diagram-three-sectors-with-icons-of-global-health-areas-healthy-people-1611366112-photoaidcom-cropped.jpg">
+    
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+            <div class="grad-bar"></div>
+            <nav class="navbar">
+                <img src="https://www.cbc.ca/mediacentre/content/images/SaveMe-Logo-Transparent.png" alt="Company Logo">
+                <button class="menu-toggle" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav no-search">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="About_us.html">About</a></li>
+                    <li class="nav-item"><a href="Animals.html">Animals</a></li>
+                    <li class="nav-item"><a href="Birds.html">Birds</a></li>
+                    <li class="nav-item"><a href="Signup.html">Sign Up</a></li>
+                    <li class="nav-item"><a href="Log_in.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="responsive-container-block bigContainer">
+        <div class="responsive-container-block Container">
+            <p class="text-blk heading">
+                About Us
+            </p>
+            <p class="text-blk subHeading">
+                Welcome to Save Me, an organization dedicated to the protection and preservation of wildlife, particularly vulnerable species of animals and birds. Our mission is to create awareness, inspire action, and provide support for the protection of endangered species, their habitats, and our planet’s biodiversity.
+                At Save Me, we believe every living creature deserves a chance to thrive. Through our campaigns, educational programs, and hands-on conservation efforts, we aim to foster a deeper connection between humans and nature. Join us in our journey to ensure a future for all species.
+                <br>
+                <b>Our Mission :</b> Our mission is to bring awareness to the critical challenges facing wildlife today. By promoting conservation and fostering respect for the natural world, we aim to make a lasting difference. We focus on habitat restoration, wildlife protection, and community education to empower the next generation of conservationists.
+            </p>
+            <div class="social-icons-container">
+                <a class="social-icon">
+                    <img class="socialIcon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb33.png" alt="Facebook Icon">
+                </a>
+                <a class="social-icon">
+                    <img class="socialIcon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb34.png" alt="Twitter Icon">
+                </a>
+                <a class="social-icon">
+                    <img class="socialIcon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb35.png" alt="Instagram Icon">
+                </a>
+                <a class="social-icon">
+                    <img class="socialIcon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb36.png" alt="LinkedIn Icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>Animal</h4>
+             <ul>
+               <li><a href="Rearest_Animals.html">Rare Animals</a></li>
+               <li><a href="Save_Animals.html">How to save Animals</a></li>
+               <li><a href="Ngo's.css">NGOs</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Birds</h4>
+             <ul>
+               <li><a href="Rear_Birds.html">Rare Birds</a></li>
+               <li><a href="Save_birds.html">How to save Birds</a></li>
+               <li><a href="Ngo's.html">NGOs</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Contact Us</h4>
+             <ul>
+               <li><a href="mailto: xabc3133@email.com">Email:Saveme@gmail.com</a></li>
+               <li><a href="tel:942-058-3060">Call</a></li>
+               <li><a href="https://www.instagram.com/kirankishanraokendre/#">Instagram</a></li>
+               <li><a href="https://wa.me/9420583060">Whatsap</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>follow us</h4>
+             <div class="social-links">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+     </footer>
+           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $('.menu-toggle').click(function(){
+            $(".nav").toggleClass("mobile-nav");
+            $(this).toggleClass("is-active");
+        });
+
+        $("#search-icon").click(function() {
+            $(".nav").toggleClass("search");
+            $(".nav").toggleClass("no-search");
+            $(".search-input").toggleClass("search-active");
+        });
+        // This adds some nice ellipsis to the description:
+       document.querySelectorAll(".projcard-description").forEach(function(box) {
+       $clamp(box, {clamp: 6});
+       });
+       
+    </script>
+</body>
+</html>

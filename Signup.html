@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Signup.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Signup_Saveme.com</title>
+    <link rel="icon" type="image/x-icon" href="stock-vector-one-health-infographic-diagram-three-sectors-with-icons-of-global-health-areas-healthy-people-1611366112-photoaidcom-cropped.jpg">
+    
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+            <div class="grad-bar"></div>
+            <nav class="navbar">
+                <img src="https://www.cbc.ca/mediacentre/content/images/SaveMe-Logo-Transparent.png" alt="Company Logo">
+                <button class="menu-toggle" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav no-search">
+                  <li class="nav-item"><a href="index.html">Home</a></li>
+                  <li class="nav-item"><a href="About_us.html">About</a></li>
+                  <li class="nav-item"><a href="Animals.html">Animals</a></li>
+                  <li class="nav-item"><a href="Birds.html">Birds</a></li>
+                  <li class="nav-item"><a href="Signup.html">Sign Up</a></li>
+                  <li class="nav-item"><a href="Log_in.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="responsive-container-block bigContainer">
+    <center>
+   
+    <div class="containe">
+        <div class="form-container">
+            <h2>Create Your Account</h2>
+            <form id="signup-form">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter your password" required>
+                </div>
+                <div class="bu">
+                <button type="submit" id="signup-button">Sign Up</button>
+                <p class="login-link">Already have an account? <a href="Log_in.html">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</center>
+</div>
+<footer class="footer">
+  <div class="container">
+   <div class="row">
+     <div class="footer-col">
+       <h4>Animal</h4>
+       <ul>
+         <li><a href="Rearest_Animals.html">Rare Animals</a></li>
+         <li><a href="Save_Animals.html">How to save Animals</a></li>
+         <li><a href="Ngo's.css">NGOs</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>Birds</h4>
+       <ul>
+         <li><a href="Rear_Birds.html">Rare Birds</a></li>
+         <li><a href="Save_birds.html">How to save Birds</a></li>
+         <li><a href="Ngo's.html">NGOs</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>Contact Us</h4>
+       <ul>
+         <li><a href="mailto: xabc3133@email.com">Email:Saveme@gmail.com</a></li>
+         <li><a href="tel:942-058-3060">Call</a></li>
+         <li><a href="https://www.instagram.com/kirankishanraokendre/#">Instagram</a></li>
+         <li><a href="https://wa.me/9420583060">Whatsap</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>follow us</h4>
+       <div class="social-links">
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+       </div>
+     </div>
+   </div>
+  </div>
+</footer>
+           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $('.menu-toggle').click(function(){
+            $(".nav").toggleClass("mobile-nav");
+            $(this).toggleClass("is-active");
+        });
+
+        $("#search-icon").click(function() {
+            $(".nav").toggleClass("search");
+            $(".nav").toggleClass("no-search");
+            $(".search-input").toggleClass("search-active");
+        });
+        // This adds some nice ellipsis to the description:
+       document.querySelectorAll(".projcard-description").forEach(function(box) {
+       $clamp(box, {clamp: 6});
+       });
+       
+    </script>
+</body>
+</html>
