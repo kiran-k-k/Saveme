@@ -93,6 +93,7 @@ h1, p {
 
 .card-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     margin: 20px 0;
     justify-content: center;
