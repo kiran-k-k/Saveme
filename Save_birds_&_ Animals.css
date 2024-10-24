@@ -105,7 +105,6 @@ h2 {
 }
 body{
   background: #ffffff;
-  display: grid;
   place-items: center;
   padding: 10px;
 }
