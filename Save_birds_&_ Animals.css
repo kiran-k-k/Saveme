@@ -28,17 +28,20 @@ h2 {
 /* BASIC SETUP */
 
 .page-wrapper {
-  width: 100%;
-  height: auto;
-}
-
-.nav-wrapper {
-  width: 100%;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  background-color: #fff;
-}
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+  }
+  
+  .nav-wrapper {
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: fixed;
+    padding-right: 18px;
+    padding-top: 10px;
+    top: 0;
+    background-color: #fff;
+  }
 
 .grad-bar {
   width: 100%;
