@@ -21,12 +21,15 @@ h1, p {
   .page-wrapper {
     width: 100%;
     height: auto;
+    margin-top: 55px;
   }
   
   .nav-wrapper {
     width: 100%;
     position: -webkit-sticky; /* Safari */
-    position: sticky;
+    position: fixed;
+    padding-right: 18px;
+    padding-top: 10px;
     top: 0;
     background-color: #fff;
   }
